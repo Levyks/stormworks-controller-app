@@ -13,7 +13,6 @@
     "@nativescript/theme": "^2.3.4",
     "@nativescript/webpack": "3.0.0",
     "@triniwiz/nativescript-socketio": "^5.0.1",
-    "axios": "^0.21.4",
     "nativescript-accelerometer": "^3.0.0",
     "nativescript-orientation": "^2.2.5",
     "svelte-native": "^0.9.7"
