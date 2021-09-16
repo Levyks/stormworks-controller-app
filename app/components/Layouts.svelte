@@ -3,7 +3,6 @@
   import { navigate } from 'svelte-native';
   
   import { onMount } from 'svelte';
-  import orientation from 'nativescript-orientation';
 
   import ActionBar from './ActionBar.svelte';
   import Controller from './Controller.svelte';
@@ -26,7 +25,7 @@
     const layout: Layout = layouts[e.object.value];
     navigate({
       page: Controller,
-      props: {layout}
+      props: {layout, socket}
     });
   }
 </script>
